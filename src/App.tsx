@@ -1,10 +1,28 @@
+import { Suspense } from "react";
+import { Route, Routes } from "react-router-dom";
+
+import RootLayout from "./components/layout";
+import Center from "./components/ui/center";
+import Loader from "./components/ui/loader";
+import Home from "./pages/home";
+
 const App = () => {
   return (
-    <div className="grid h-screen w-screen place-items-center bg-black">
-      <p className="bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-3xl text-transparent">
-        Vite + React + TS
-      </p>
-    </div>
+    <RootLayout>
+      <Suspense
+        fallback={
+          <Center absolutely>
+            <Loader iconSize={50} />
+          </Center>
+        }
+      >
+        <Routes>
+          <Route index path="/" element={<Home />} />
+
+          {/* ... */}
+        </Routes>
+      </Suspense>
+    </RootLayout>
   );
 };
 
