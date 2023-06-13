@@ -1,0 +1,6 @@
+{
+	"*.{ts,tsx,md,mdx}": [
+		"prettier --write \"**/*.{ts,tsx,mdx}\" --cache",
+		"eslint --fix ."
+	]
+}
