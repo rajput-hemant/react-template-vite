@@ -45,6 +45,10 @@ npm i -g degit
 **Scaffold the project:**
 
 ```bash
+# w/ react-router-dom
+degit rajput-hemant/react-template-vite#router my-app
+
+# basic template
 degit rajput-hemant/react-template-vite my-app
 cd my-app
 ```
