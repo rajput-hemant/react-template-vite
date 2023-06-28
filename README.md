@@ -46,6 +46,10 @@ npm i -g degit
 
 ```bash
 degit rajput-hemant/react-template-vite my-app
+
+# w/ react-router-dom
+degit rajput-hemant/react-template-vite#router my-app
+
 cd my-app
 ```
 
