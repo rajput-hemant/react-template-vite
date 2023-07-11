@@ -2,8 +2,9 @@
 
 ![views] ![stars] ![forks] ![issues] ![license] ![repo-size]
 
-<div style="font-size: 2.5rem; display: flex; align-items: center; justify-content: center; gap: 1rem;">
-<img src="public/react.svg" style="width: 100px; height: 100px;"> + <img src="public/vite.svg" style="width: 90px; height: 100px;">
+<div style="display: flex; justify-content: center; gap: 1rem;">
+<img src="public/react.svg" style="width: 100px; height: 100px;">
+<img src="public/vite.svg" style="width: 90px; height: 100px;">
 </div>
 
 # React Starter Template w/ Vite
@@ -32,12 +33,22 @@
 **Install `degit` globally:**
 
 ```bash
+pnpm i -g degit || yarn global add degit || npm i -g degit
+```
+
+<p align="center" style="font-weight: bold;">OR</p>
+
+```bash
 # pnpm
 pnpm i -g degit
+```
 
+```bash
 # yarn
 yarn global add degit
+```
 
+```bash
 # npm
 npm i -g degit
 ```
@@ -45,23 +56,36 @@ npm i -g degit
 **Scaffold the project:**
 
 ```bash
-degit rajput-hemant/react-template-vite my-app
+# basic template
+degit rajput-hemant/react-template-vite <project-name>
+cd my-app
+```
 
+```bash
 # w/ react-router-dom
-degit rajput-hemant/react-template-vite#router my-app
-
+degit rajput-hemant/react-template-vite#router <project-name>
 cd my-app
 ```
 
 **Install dependencies:**
 
 ```bash
+pnpm i || yarn || npm i
+```
+
+<p align="center" style="font-weight: bold;">OR</p>
+
+```bash
 # pnpm
 pnpm i
+```
 
+```bash
 # yarn
 yarn
+```
 
+```bash
 # npm
 npm i
 ```
@@ -86,7 +110,19 @@ In the project directory, you can run:
 - **`pnpm lint`** - Runs ESLint with Prettier.
 - **`pnpm fmt:check`** - Checks if the code is formatted with Prettier.
 - **`pnpm fmt:write`** - Formats the code with Prettier.
-- **`pnpm prepare`** - Runs Husky install.
+- **`pnpm prepare`** - Installs husky git hooks.
+
+| **Script**   | **Description**                                                 |
+| ------------ | --------------------------------------------------------------- |
+| `dev`        | Runs the app in the development mode.                           |
+| `build`      | Builds the app for production to the `dist` folder.             |
+| `serve`      | Serves the production build from the `dist` folder.             |
+| `preview`    | Bundles and serves the production build from the `dist` folder. |
+| `type-check` | Runs TypeScript type-checking.                                  |
+| `lint`       | Runs ESLint with Prettier.                                      |
+| `fmt:check`  | Checks if the code is formatted with Prettier.                  |
+| `fmt:write`  | Formats the code with Prettier.                                 |
+| `prepare`    | Installs husky git hooks.                                       |
 
 ## Switching Package Manager
 
