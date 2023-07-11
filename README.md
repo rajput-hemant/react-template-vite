@@ -102,16 +102,6 @@ git commit --no-verify -m "init"
 
 In the project directory, you can run:
 
-- **`pnpm dev`** - Runs the app in the development mode.
-- **`pnpm build`** - Builds the app for production to the `dist` folder.
-- **`pnpm serve`** - Serves the production build from the `dist` folder.
-- **`pnpm preview`** - Bundles and serves the production build from the `dist` folder.
-- **`pnpm type-check`** - Runs TypeScript type-checking.
-- **`pnpm lint`** - Runs ESLint with Prettier.
-- **`pnpm fmt:check`** - Checks if the code is formatted with Prettier.
-- **`pnpm fmt:write`** - Formats the code with Prettier.
-- **`pnpm prepare`** - Installs husky git hooks.
-
 | **Script**   | **Description**                                                 |
 | ------------ | --------------------------------------------------------------- |
 | `dev`        | Runs the app in the development mode.                           |
@@ -123,6 +113,13 @@ In the project directory, you can run:
 | `fmt:check`  | Checks if the code is formatted with Prettier.                  |
 | `fmt:write`  | Formats the code with Prettier.                                 |
 | `prepare`    | Installs husky git hooks.                                       |
+
+## After Installation Checklist
+
+- [ ] Update `package.json` with your project details.
+- [ ] Update `README.md` with your project details.
+- [ ] Update `LICENSE` with your name and year.
+- [ ] Update `index.html` to your liking.
 
 ## Switching Package Manager
 
