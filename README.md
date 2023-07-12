@@ -36,58 +36,24 @@
 pnpm i -g degit || yarn global add degit || npm i -g degit
 ```
 
-<p align="center" style="font-weight: bold;">OR</p>
-
-```bash
-# pnpm
-pnpm i -g degit
-```
-
-```bash
-# yarn
-yarn global add degit
-```
-
-```bash
-# npm
-npm i -g degit
-```
-
 **Scaffold the project:**
 
 ```bash
 # basic template
 degit rajput-hemant/react-template-vite <project-name>
-cd my-app
+cd <project-name>
 ```
 
 ```bash
 # w/ react-router-dom
 degit rajput-hemant/react-template-vite#router <project-name>
-cd my-app
+cd <project-name>
 ```
 
 **Install dependencies:**
 
 ```bash
 pnpm i || yarn || npm i
-```
-
-<p align="center" style="font-weight: bold;">OR</p>
-
-```bash
-# pnpm
-pnpm i
-```
-
-```bash
-# yarn
-yarn
-```
-
-```bash
-# npm
-npm i
 ```
 
 **Initialize a new git repository _(Optional)_:**
