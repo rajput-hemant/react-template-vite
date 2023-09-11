@@ -1,6 +1,6 @@
 <div align=center>
 
-![views] ![stars] ![forks] ![issues] ![license] ![repo-size]
+![ci] ![views] ![stars] ![forks] ![issues] ![license] ![repo-size]
 
 <div style="display: flex; justify-content: center; gap: 1rem;">
 <img src="public/react.svg" style="width: 100px; height: 100px;">
@@ -26,14 +26,14 @@
 - 🐶 **[Husky](https://typicode.github.io/husky/#/)** - Git hooks made easy
 - 🚫 **[lint-staged](https://github.com/okonet/lint-staged)** - Run linters against staged git files
 - 📄 **[commitlint](https://commitlint.js.org/#/)** - Lint commit messages
-- 📦 **[pnpm](https://pnpm.io/)** - Fast, disk space efficient package manager
+- 📦 **[bun](https://bun.sh)** - A JavaScript runtime w/ Fast, disk space efficient package manager
 
 ## Getting Started
 
 **Install `degit` globally:**
 
 ```bash
-pnpm i -g degit || yarn global add degit || npm i -g degit
+bun i -g degit || pnpm i -g degit || yarn global add degit || npm i -g degit
 ```
 
 **Scaffold the project:**
@@ -53,7 +53,7 @@ cd <project-name>
 **Install dependencies:**
 
 ```bash
-pnpm i || yarn || npm i
+bun i || pnpm i || yarn || npm i
 ```
 
 **Initialize a new git repository _(Optional)_:**
@@ -89,7 +89,7 @@ In the project directory, you can run:
 
 ## Switching Package Manager
 
-This template uses [pnpm](https://pnpm.io/) as the default package manager. If you want to use `npm` or `yarn`, you need to remove the `pnpm-lock.yaml` file and run `npm i` or `yarn` to generate the lock file for the respective package manager.
+This template uses [bun](https://bun.sh) as the default package manager. If you want to use `pnpm`, `npm` or `yarn`, you need to remove the `bun.lockb` file and run `pnpm i`, `npm i` or `yarn` to generate the lock file for the respective package manager.
 
 ## License
 
@@ -116,3 +116,4 @@ _Note: It may take up to 24h for the [contrib.rocks][contrib-rocks] plugin to up
 [contributors]: https://contrib.rocks/image?repo=rajput-hemant/react-template-vite&max=500
 [contributors-graph]: https://github.com/rajput-hemant/react-template-vite/graphs/contributors
 [contrib-rocks]: https://contrib.rocks/preview?repo=rajput-hemant%2Freact-template-vite
+[ci]: https://github.com/rajput-hemant/react-template-vite/actions/workflows/ci.yml/badge.svg
