@@ -20,5 +20,11 @@
     "tailwindcss": {
       "callees": ["cn", "cva"]
     }
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "parser": "@typescript-eslint/parser"
+    }
+  ]
 }
