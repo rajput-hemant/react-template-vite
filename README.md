@@ -45,8 +45,8 @@ cd <project-name>
 ```
 
 ```bash
-# w/ react-router-dom
-degit rajput-hemant/react-template-vite#router <project-name>
+# w/o react-router-dom
+degit rajput-hemant/react-template-vite#barebone <project-name>
 cd <project-name>
 ```
 
