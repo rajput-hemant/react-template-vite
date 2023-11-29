@@ -1,6 +1,6 @@
 import "@/styles/layout.css";
 
-import { useEffect, useRef, useState } from "react";
+import React from "react";
 import {
   Clipboard,
   ClipboardCheck,
@@ -565,13 +565,13 @@ const packageManagers = {
 
 type PackageManagers = keyof typeof packageManagers;
 
-const Home = () => {
-  const [isCopied, setIsCopied] = useState(false);
-  const [showDropdown, setShowDropdown] = useState(false);
-  const featuresRef = useRef<HTMLDivElement>(null);
-  const dropdownButtonsRef = useRef<HTMLButtonElement[]>([]);
-  const cardsRef = useRef<HTMLAnchorElement[]>([]);
-  const cardWrapperRef = useRef<HTMLDivElement>(null);
+export default function Home() {
+  const [isCopied, setIsCopied] = React.useState(false);
+  const [showDropdown, setShowDropdown] = React.useState(false);
+  const featuresRef = React.useRef<HTMLDivElement>(null);
+  const dropdownButtonsRef = React.useRef<HTMLButtonElement[]>([]);
+  const cardsRef = React.useRef<HTMLAnchorElement[]>([]);
+  const cardWrapperRef = React.useRef<HTMLDivElement>(null);
 
   // close dropdown on ESC key press
   useEventListener("keydown", (e) => {
@@ -627,7 +627,7 @@ const Home = () => {
     }
   });
 
-  useEffect(() => {
+  React.useEffect(() => {
     cardWrapperRef.current!.onmousemove = (e) => {
       for (const card of cardsRef.current) {
         const rect = card.getBoundingClientRect(),
@@ -816,6 +816,4 @@ const Home = () => {
       </footer>
     </main>
   );
-};
-
-export default Home;
+}
