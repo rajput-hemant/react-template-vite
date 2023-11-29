@@ -1,6 +1,6 @@
 <div align=center>
 
-![ci] ![views] ![stars] ![forks] ![issues] ![license] ![repo-size]
+[![ntl-badge]][ntl-link] ![ci] ![views] ![stars] ![forks] ![issues] ![license] ![repo-size]
 
 <div style="display: flex; justify-content: center; gap: 1rem;">
 <img src="public/react.svg" style="width: 100px; height: 100px;">
@@ -39,7 +39,7 @@ bun i -g degit || pnpm i -g degit || yarn global add degit || npm i -g degit
 **Scaffold the project:**
 
 ```bash
-# basic template
+# basic template w/ react-router-dom
 degit rajput-hemant/react-template-vite <project-name>
 cd <project-name>
 ```
@@ -76,8 +76,8 @@ In the project directory, you can run:
 | `preview`    | Bundles and serves the production build from the `dist` folder. |
 | `type-check` | Runs TypeScript type-checking.                                  |
 | `lint`       | Runs ESLint with Prettier.                                      |
+| `fmt`        | Formats the code with Prettier.                                 |
 | `fmt:check`  | Checks if the code is formatted with Prettier.                  |
-| `fmt:write`  | Formats the code with Prettier.                                 |
 | `prepare`    | Installs husky git hooks.                                       |
 
 ## After Installation Checklist
@@ -117,3 +117,5 @@ _Note: It may take up to 24h for the [contrib.rocks][contrib-rocks] plugin to up
 [contributors-graph]: https://github.com/rajput-hemant/react-template-vite/graphs/contributors
 [contrib-rocks]: https://contrib.rocks/preview?repo=rajput-hemant%2Freact-template-vite
 [ci]: https://github.com/rajput-hemant/react-template-vite/actions/workflows/ci.yml/badge.svg
+[ntl-badge]: https://api.netlify.com/api/v1/badges/1699cfdd-9493-4c43-97de-0ec96fa4e1a1/deploy-status
+[ntl-link]: https://app.netlify.com/sites/react-template-vite/deploys
