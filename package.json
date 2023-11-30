@@ -18,7 +18,7 @@
     "lucide-react": "^0.294.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tailwind-merge": "^1.14.0"
+    "tailwind-merge": "^2.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
