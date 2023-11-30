@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "clsx": "^2.0.0",
-    "lucide-react": "^0.289.0",
+    "lucide-react": "^0.294.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tailwind-merge": "^1.14.0"
@@ -25,25 +25,25 @@
     "@commitlint/config-conventional": "^18.4.3",
     "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
     "@total-typescript/ts-reset": "^0.5.1",
-    "@types/node": "^20.8.9",
-    "@types/react": "^18.2.32",
-    "@types/react-dom": "^18.2.14",
-    "@typescript-eslint/eslint-plugin": "^6.9.0",
-    "@typescript-eslint/parser": "^6.9.0",
-    "@vitejs/plugin-react-swc": "^3.4.0",
+    "@types/node": "^20.10.1",
+    "@types/react": "^18.2.39",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "@vitejs/plugin-react-swc": "^3.5.0",
     "autoprefixer": "^10.4.16",
-    "eslint": "^8.52.0",
+    "eslint": "^8.54.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.3",
+    "eslint-plugin-react-refresh": "^0.4.4",
     "eslint-plugin-tailwindcss": "^3.13.0",
     "husky": "^8.0.3",
-    "lint-staged": "^15.0.2",
+    "lint-staged": "^15.1.0",
     "postcss": "^8.4.31",
-    "prettier": "^3.0.3",
-    "prettier-plugin-tailwindcss": "^0.5.6",
+    "prettier": "^3.1.0",
+    "prettier-plugin-tailwindcss": "^0.5.7",
     "tailwindcss": "^3.3.5",
-    "typescript": "^5.2.2",
+    "typescript": "^5.3.2",
     "vite": "^5.0.4"
   },
   "lint-staged": {
@@ -60,6 +60,6 @@
     ]
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=18.19.0"
   }
 }
