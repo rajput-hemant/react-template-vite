@@ -4,7 +4,6 @@ import React from "react";
 import {
   Clipboard,
   ClipboardCheck,
-  Copyright,
   FlameKindling,
   Github,
   Mouse,
@@ -655,7 +654,7 @@ export default function Home() {
   };
 
   return (
-    <main className="layout min-h-screen w-full bg-[#141414] bg-fixed text-white selection:bg-zinc-300 selection:text-black">
+    <main className="layout w-full bg-black bg-fixed text-white selection:bg-white selection:text-black">
       <section className="container px-4 py-12 md:px-6 md:pt-24 lg:pt-32 xl:pt-48">
         <img
           src="/react.svg"
@@ -798,17 +797,15 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="container mt-10 grid place-items-center pb-4">
+      <footer className="container mt-10 grid place-items-center pb-4 text-neutral-400">
         <span className="flex items-center gap-1">
-          <Copyright className="h-4 w-4" />
-
+          &copy;
           <span>{new Date().getFullYear()}</span>
-
           <a
             href="https://github.com/rajput-hemant"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-green-300 underline-offset-4 hover:text-green-400 hover:underline"
+            className="underline-offset-4 duration-200 hover:text-white hover:underline"
           >
             rajput-hemant@github
           </a>
