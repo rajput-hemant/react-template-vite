@@ -9,7 +9,7 @@ export default function Error() {
   return (
     <div className="layout flex min-h-screen flex-col items-center justify-center space-y-6 bg-[#141414] text-center text-white">
       <svg
-        className=" h-24 w-24 text-red-500"
+        className="size-24 text-red-500"
         fill="none"
         height="24"
         stroke="currentColor"
