@@ -11,7 +11,7 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "fmt": "prettier --write \"**/*.{ts,tsx,mdx}\" --cache",
     "fmt:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "clsx": "^2.1.0",
