@@ -1,6 +1,7 @@
 import "@/styles/layout.css";
 
 import { useEffect, useRef, useState } from "react";
+import { createLazyFileRoute } from "@tanstack/react-router";
 import {
   Clipboard,
   ClipboardCheck,
@@ -12,6 +13,10 @@ import {
 } from "lucide-react";
 
 import { useEventListener } from "@/hooks/use-event-listener";
+
+export const Route = createLazyFileRoute("/")({
+  component: Home,
+});
 
 type Feature = {
   title: string;
@@ -565,7 +570,7 @@ const packageManagers = {
 
 type PackageManagers = keyof typeof packageManagers;
 
-const App = () => {
+function Home() {
   const [isCopied, setIsCopied] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
   const featuresRef = useRef<HTMLDivElement>(null);
@@ -816,6 +821,4 @@ const App = () => {
       </footer>
     </main>
   );
-};
-
-export default App;
+}

@@ -1,15 +1,24 @@
 import React from "react";
+import { createRouter, RouterProvider } from "@tanstack/react-router";
 import ReactDOM from "react-dom/client";
 
-import App from "./App.tsx";
-import { TailwindIndicator } from "./components/tailwind-indicator.tsx";
+import { routeTree } from "./routeTree.gen";
 
-import "@/styles/index.css";
+const router = createRouter({ routeTree });
 
-ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-  <React.StrictMode>
-    <App />
+declare module "@tanstack/react-router" {
+  interface Register {
+    router: typeof router;
+  }
+}
 
-    <TailwindIndicator />
-  </React.StrictMode>
-);
+const rootElement = document.getElementById("app")!;
+if (!rootElement.innerHTML) {
+  const root = ReactDOM.createRoot(rootElement);
+
+  root.render(
+    <React.StrictMode>
+      <RouterProvider router={router} />
+    </React.StrictMode>
+  );
+}
