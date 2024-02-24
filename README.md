@@ -19,6 +19,7 @@
 - ⚛️ **[React 18](https://reactjs.org/)** - A JavaScript library for building user interfaces
 - 🎨 **[TailwindCSS](https://tailwindcss.com/)** - A utility-first CSS framework for rapidly building custom designs
 - 📦 **[TypeScript](https://www.typescriptlang.org/)** - A typed superset of JavaScript that compiles to plain JavaScript
+- 📦 **[TanStack Router](https://tanstack.com/router)** - A fully type-safe React router with built-in data fetching, stale-while revalidate caching and first-class search-param APIs.
 - 📦 **[react-router](https://reactrouter.com/)** - Declarative routing for React
 - 📦 **[lucide-react](https://lucide.dev/)** - Beautiful & consistent icons
 - 📝 **[ESLint](https://eslint.org/)** - The pluggable linting utility for JavaScript and JSX
