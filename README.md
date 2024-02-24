@@ -45,7 +45,13 @@ cd <project-name>
 ```
 
 ```bash
-# w/o react-router-dom
+# basic template w/ tanstack-router
+degit rajput-hemant/react-template-vite#tanstack-router <project-name>
+cd <project-name>
+```
+
+```bash
+# barebone template
 degit rajput-hemant/react-template-vite#barebone <project-name>
 cd <project-name>
 ```

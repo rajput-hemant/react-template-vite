@@ -1,5 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["github>rajput-hemant/renovate-config"],
-  "baseBranches": ["master", "barebone"]
+  "baseBranches": ["master", "tanstack-router", "barebone"]
 }
