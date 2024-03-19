@@ -22,8 +22,8 @@
     "tailwind-merge": "^2.2.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18.4.4",
-    "@commitlint/config-conventional": "^18.4.4",
+    "@commitlint/cli": "^19.2.1",
+    "@commitlint/config-conventional": "^19.1.0",
     "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
     "@tanstack/router-devtools": "^1.16.6",
     "@tanstack/router-vite-plugin": "^1.16.5",
