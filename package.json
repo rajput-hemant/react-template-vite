@@ -11,6 +11,8 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "fmt": "prettier --write \"**/*.{ts,tsx,mdx}\" --cache",
     "fmt:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache",
+    "clean": "rm -rf dist",
+    "cleani": "rm -rf dist && rm -rf node_modules && bun i",
     "prepare": "husky"
   },
   "dependencies": {
