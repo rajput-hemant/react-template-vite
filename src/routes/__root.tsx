@@ -1,12 +1,14 @@
+import "@/styles/index.css";
+
 import React from "react";
+
 import { createRootRoute, Link, Outlet } from "@tanstack/react-router";
 
 import { TailwindIndicator } from "@/components/tailwind-indicator";
 
-import "@/styles/index.css";
-
-const TanStackRouterDevtools = import.meta.env.DEV
-  ? React.lazy(() =>
+const TanStackRouterDevtools =
+  import.meta.env.DEV ?
+    React.lazy(() =>
       import("@tanstack/router-devtools").then((res) => ({
         default: res.TanStackRouterDevtools,
       }))

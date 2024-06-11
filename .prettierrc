@@ -10,17 +10,17 @@
   ],
   "importOrder": [
     "^(react/(.*)$)|^(react$)",
+    "",
     "<THIRD_PARTY_MODULES>",
     "",
-    "^types$",
-    "^@/types/?(.*)$",
-    "^@/store/?(.*)$",
-    "^@/config/(.*)$",
-    "^@/lib/(.*)$",
-    "^@/hooks/?(.*)$",
-    "^@/components/(.*)$",
-    "^@/styles/(.*)$",
+    "<TYPES>",
+    "",
+    "<TYPES>^[@~]/(?!$).*$",
+    "",
+    "^[@~]/.*$",
+    "",
     "^[./]"
   ],
+  "experimentalTernaries": true,
   "importOrderParserPlugins": ["typescript", "jsx", "decorators-legacy"]
 }
