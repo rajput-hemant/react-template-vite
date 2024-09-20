@@ -29,7 +29,7 @@ export default ts.config(
         ...globals.es2020,
       },
       parserOptions: {
-        project: ["tsconfig.json", "tsconfig.node.json"],
+        project: ["tsconfig.json", "tsconfig.node.json", "tsconfig.app.json"],
         ecmaFeatures: {
           jsx: true,
         },
