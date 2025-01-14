@@ -17,9 +17,9 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@tanstack/react-router": "^1.95.1",
+    "@tanstack/react-router": "^1.95.6",
     "clsx": "^2.1.1",
-    "lucide-react": "^0.469.0",
+    "lucide-react": "^0.471.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "tailwind-merge": "^2.6.0"
@@ -27,33 +27,33 @@
   "devDependencies": {
     "@commitlint/cli": "^19.6.1",
     "@commitlint/config-conventional": "^19.6.0",
-    "@ianvs/prettier-plugin-sort-imports": "^4.4.0",
-    "@tanstack/router-devtools": "^1.95.1",
-    "@tanstack/router-vite-plugin": "^1.95.1",
+    "@ianvs/prettier-plugin-sort-imports": "^4.4.1",
+    "@tanstack/router-devtools": "^1.95.6",
+    "@tanstack/router-vite-plugin": "^1.95.6",
     "@total-typescript/ts-reset": "^0.6.1",
-    "@types/node": "^22.10.5",
+    "@types/node": "^22.10.6",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
-    "@typescript-eslint/eslint-plugin": "^8.19.0",
-    "@typescript-eslint/parser": "^8.19.0",
+    "@typescript-eslint/eslint-plugin": "^8.20.0",
+    "@typescript-eslint/parser": "^8.20.0",
     "@vitejs/plugin-react-swc": "^3.7.2",
     "autoprefixer": "^10.4.20",
-    "eslint": "^9.17.0",
+    "eslint": "^9.18.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
-    "eslint-plugin-react": "^7.37.3",
+    "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.1.0",
-    "eslint-plugin-react-refresh": "^0.4.16",
+    "eslint-plugin-react-refresh": "^0.4.18",
     "eslint-plugin-tailwindcss": "^3.17.5",
     "globals": "^15.14.0",
     "husky": "^9.1.7",
     "lint-staged": "^15.3.0",
-    "postcss": "^8.4.49",
+    "postcss": "^8.5.0",
     "prettier": "^3.4.2",
     "prettier-plugin-tailwindcss": "^0.6.9",
     "tailwindcss": "^3.4.17",
-    "typescript": "^5.7.2",
-    "typescript-eslint": "^8.19.0",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.20.0",
     "vite": "^5.4.11"
   },
   "lint-staged": {
@@ -70,6 +70,6 @@
     ]
   },
   "engines": {
-    "node": ">=22.12.0"
+    "node": ">=22.13.0"
   }
 }
