@@ -10,7 +10,6 @@ import { TailwindIndicator } from "./components/tailwind-indicator.tsx";
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
     <App />
-
     <TailwindIndicator />
   </React.StrictMode>
 );
