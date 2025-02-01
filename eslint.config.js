@@ -4,7 +4,7 @@ import prettierPlugin from "eslint-plugin-prettier";
 import react from "eslint-plugin-react";
 import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
-import tailwind from "eslint-plugin-tailwindcss";
+// import tailwind from "eslint-plugin-tailwindcss";
 import globals from "globals";
 import ts from "typescript-eslint";
 
@@ -12,7 +12,7 @@ import ts from "typescript-eslint";
 export default ts.config(
   js.configs.recommended,
   ...ts.configs.recommended,
-  ...tailwind.configs["flat/recommended"],
+  // ...tailwind.configs["flat/recommended"],
   {
     plugins: {
       "@typescript-eslint": ts.plugin,
@@ -39,7 +39,7 @@ export default ts.config(
     rules: {
       ...prettierPlugin.configs.recommended.rules,
       ...prettier.rules,
-      ...tailwind.configs.rules,
+      // ...tailwind.configs.rules,
       "react-refresh/only-export-components": [
         "warn",
         { allowConstantExport: true },
@@ -51,8 +51,8 @@ export default ts.config(
         { props: "never", children: "never" },
       ],
       "react/self-closing-comp": ["warn", { component: true, html: true }],
-      "tailwindcss/no-custom-classname": "warn",
-      "tailwindcss/classnames-order": "warn",
+      // "tailwindcss/no-custom-classname": "warn",
+      // "tailwindcss/classnames-order": "warn",
       "@typescript-eslint/ban-ts-comment": "off",
       "@typescript-eslint/consistent-type-imports": "warn",
       "@typescript-eslint/no-unused-vars": [
