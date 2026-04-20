@@ -21,7 +21,7 @@
     "lucide-react": "^0.577.0",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
-    "react-router-dom": "^7.14.0",
+    "react-router-dom": "^7.14.1",
     "tailwind-merge": "3.5.0"
   },
   "devDependencies": {
@@ -33,25 +33,25 @@
     "@types/node": "^25.6.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@typescript-eslint/eslint-plugin": "^8.58.1",
-    "@typescript-eslint/parser": "^8.58.1",
+    "@typescript-eslint/eslint-plugin": "^8.58.2",
+    "@typescript-eslint/parser": "^8.58.2",
     "@vitejs/plugin-react-swc": "^4.3.0",
     "eslint": "^9.39.4",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
     "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.5.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
-    "postcss": "^8.5.9",
-    "prettier": "^3.8.2",
+    "postcss": "^8.5.10",
+    "prettier": "^3.8.3",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "tailwindcss": "^4.2.2",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.58.1",
-    "vite": "^8.0.8"
+    "typescript-eslint": "^8.58.2",
+    "vite": "^8.0.9"
   },
   "lint-staged": {
     "*.{ts,tsx,md,mdx}": [
@@ -67,6 +67,6 @@
     ]
   },
   "engines": {
-    "node": ">=24.14.1"
+    "node": ">=24.15.0"
   }
 }
