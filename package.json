@@ -32,9 +32,9 @@
     "@tanstack/router-devtools": "^1.167.0",
     "@tanstack/router-vite-plugin": "^1.167.23",
     "@total-typescript/ts-reset": "^0.6.1",
-    "@types/node": "^26.1.1",
-    "@types/react": "^19.2.17",
-    "@types/react-dom": "^19.2.3",
+    "@types/node": "^26.1.2",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
     "@typescript-eslint/eslint-plugin": "^8.65.0",
     "@typescript-eslint/parser": "^8.65.0",
     "@vitejs/plugin-react-swc": "^3.11.0",
@@ -47,7 +47,7 @@
     "globals": "^15.15.0",
     "husky": "^9.1.7",
     "lint-staged": "^15.5.2",
-    "postcss": "^8.5.23",
+    "postcss": "^8.5.25",
     "prettier": "^3.9.6",
     "prettier-plugin-tailwindcss": "^0.8.1",
     "tailwindcss": "^4.3.3",
@@ -69,6 +69,6 @@
     ]
   },
   "engines": {
-    "node": ">=22.23.1"
+    "node": ">=22.23.2"
   }
 }
