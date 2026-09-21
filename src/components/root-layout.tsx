@@ -1,15 +1,18 @@
-import { Outlet } from "react-router-dom";
+// src/BadComponent.tsx
+import React from 'react';
 
-import { TailwindIndicator } from "./tailwind-indicator";
+export const BadComponent = (props: any) => {
+  const API_KEY = "sk_test_1234567890SecretKey"; // Hardcoded secret
 
-const RootLayout = () => {
+  const fetchData = async () => {
+    const res = await fetch("https://api.example.com/data"); // Missing try-catch
+    const data = await res.json();
+    return data;
+  };
+
   return (
-    <div className="min-h-screen scroll-smooth antialiased">
-      <Outlet />
-
-      <TailwindIndicator />
-    </div>
+    <button onClick={fetchData}>
+      Click Me
+    </button>
   );
 };
-
-export default RootLayout;
