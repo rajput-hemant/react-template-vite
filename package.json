@@ -17,7 +17,7 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@tanstack/react-router": "^1.170.38",
+    "@tanstack/react-router": "^1.170.40",
     "clsx": "^2.1.1",
     "lucide-react": "0.577.0",
     "react": "^19.3.0",
@@ -30,13 +30,13 @@
     "@ianvs/prettier-plugin-sort-imports": "^4.7.1",
     "@tailwindcss/postcss": "^4.3.3",
     "@tanstack/router-devtools": "^1.167.2",
-    "@tanstack/router-vite-plugin": "^1.167.40",
+    "@tanstack/router-vite-plugin": "^1.167.41",
     "@total-typescript/ts-reset": "^0.6.1",
-    "@types/node": "^26.6.2",
+    "@types/node": "^26.6.3",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
-    "@typescript-eslint/eslint-plugin": "^8.70.0",
-    "@typescript-eslint/parser": "^8.70.0",
+    "@typescript-eslint/eslint-plugin": "^8.70.1",
+    "@typescript-eslint/parser": "^8.70.1",
     "@vitejs/plugin-react-swc": "^3.11.0",
     "eslint": "^9.39.5",
     "eslint-config-prettier": "10.1.8",
@@ -48,11 +48,11 @@
     "husky": "^9.1.7",
     "lint-staged": "^15.5.2",
     "postcss": "^8.5.28",
-    "prettier": "^3.9.8",
+    "prettier": "^3.9.9",
     "prettier-plugin-tailwindcss": "^0.8.1",
     "tailwindcss": "^4.3.3",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.70.0",
+    "typescript-eslint": "^8.70.1",
     "vite": "6.4.3"
   },
   "lint-staged": {
@@ -69,6 +69,6 @@
     ]
   },
   "engines": {
-    "node": ">=22.23.2"
+    "node": ">=22.23.3"
   }
 }
